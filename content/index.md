@@ -1,8 +1,9 @@
 ---
 title: "bbobai's Garden"
-description: "AI, 일, 지식관리, 여행에 대한 공개 디지털 가든"
+description: "웹에서 학습한 자료를 raw로 모으고 LLM이 위키로 컴파일하는 공개 디지털 가든"
 tags:
   - digital-garden
+  - llm-wiki
   - knowledge-management
 created: 2026-06-21
 updated: 2026-06-21
@@ -11,30 +12,57 @@ draft: false
 
 # bbobai's Garden
 
-이곳은 AI, 일, 지식관리, 여행에 대한 공개 노트입니다.
-
-이 사이트는 다음 흐름으로 운영합니다.
+이곳은 웹에서 학습한 자료를 `raw`에 모으고, LLM이 이를 읽어 **지속적으로 갱신되는 공개 위키**로 컴파일하는 공간입니다.
 
 ```text
-private Obsidian vault: second
+web capture / shared source / paper / transcript
         ↓
-Hermes / LLM이 공개용으로 재작성
+content/raw/ 에 원자료 저장
         ↓
-public Quartz repo: bbobai-garden
+LLM이 entity · concept · comparison · query page 생성/갱신
         ↓
-GitHub Pages로 공개
+Quartz + GitHub Pages로 공개
 ```
 
-## Topics
+운영 원칙은 [[SCHEMA]]에 있습니다. 이 구조는 Andrej Karpathy의 [[LLM Wiki]] 패턴을 이 repo에 맞게 적용한 것입니다.
 
-- [[AI]]
-- [[Knowledge Management]]
-- [[Work]]
-- [[Travel]]
+> Last updated: 2026-06-21 | Total wiki pages: 3
 
-## Publishing principles
+## Start here
 
-- 원본 private note를 그대로 공개하지 않습니다.
-- 공개 repo에는 공개 가능한 최종 글만 둡니다.
-- 개인, 가족, 회사, 고객, 계정, 금전, 건강 관련 민감정보는 제거하거나 일반화합니다.
-- 각 노트는 하나의 개념에 집중합니다.
+- [[SCHEMA]] — LLM이 이 위키를 유지하는 규칙
+- [[log]] — ingest, query, lint 기록
+- [[LLM Wiki]] — Karpathy식 LLM-maintained wiki 개념
+- [[Knowledge Compounding]] — 읽은 자료가 누적 지식으로 변환되는 원리
+
+## Raw sources
+
+- [[karpathy-llm-wiki]] — Andrej Karpathy, “LLM Wiki” gist
+
+## Entities
+
+- [[Andrej Karpathy]] — LLM Wiki 패턴을 제안한 AI 연구자/교육자
+
+## Concepts
+
+- [[LLM Wiki]] — raw source와 query-time RAG 사이에 지속 갱신되는 markdown wiki를 두는 패턴
+- [[Knowledge Compounding]] — 자료를 매번 다시 검색하지 않고 구조화된 지식으로 축적하는 방식
+
+## Comparisons
+
+아직 없음.
+
+## Queries
+
+아직 없음.
+
+## Capture inbox
+
+앞으로 웹에서 자료를 공유하면 다음 위치에 저장합니다.
+
+- 기사/블로그: `content/raw/articles/`
+- 논문/PDF: `content/raw/papers/`
+- 영상/회의/인터뷰 transcript: `content/raw/transcripts/`
+- 이미지/다이어그램/스크린샷: `content/raw/assets/`
+
+그다음 LLM이 관련 wiki page를 갱신합니다.
