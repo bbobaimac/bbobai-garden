@@ -5,7 +5,7 @@ tags:
   - llm-wiki
   - log
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-06-22
 draft: false
 ---
 
@@ -24,4 +24,11 @@ draft: false
 - Added raw source: `raw/articles/karpathy-llm-wiki.md`.
 - Added entity page: `entities/andrej-karpathy.md`.
 - Added concept pages: `concepts/llm-wiki.md`, `concepts/knowledge-compounding.md`.
+- Updated `index.md` catalog.
+
+
+## [2026-06-22] ingest | hpd.ai, “프롬프트는 끝났다, 이제 루프를 짠다”
+- Added raw capture summary: `raw/articles/hpd-loop-engineering.md`.
+- Added screenshot asset: `raw/assets/hpd-loop-engineering-2026-06-21.jpg`.
+- Added concept page: `concepts/loop-engineering.md`.
 - Updated `index.md` catalog.
