@@ -44,3 +44,10 @@ draft: false
 - Added concept page: `concepts/advisor-council-skill.md`.
 - Included the meeting-recording action-item tracking multi-agent example.
 - Updated `index.md` catalog.
+
+## [2026-07-06] update | Raw-based garden organization pass
+- Added entity page: `entities/peter-yang.md`.
+- Added synthesis concept: `concepts/agent-work-operating-system.md`.
+- Added comparison page: `comparisons/rag-vs-llm-wiki.md`.
+- Updated `index.md` with reading paths and a cleaner catalog.
+- Updated cross-links in `concepts/llm-wiki.md`, `concepts/loop-engineering.md`, `concepts/fable-worthy-work.md`, and `concepts/advisor-council-skill.md`.

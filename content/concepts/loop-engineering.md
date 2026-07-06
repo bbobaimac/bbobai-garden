@@ -10,7 +10,7 @@ tags:
 sources:
   - raw/articles/hpd-loop-engineering.md
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-07-06
 confidence: medium
 draft: false
 ---
@@ -106,8 +106,8 @@ schema, 링크, Quartz build 검사
 
 이 관점에서 [[Knowledge Compounding]]은 단순히 “많이 저장하기”가 아니라, 검증 가능한 루프를 통해 지식을 계속 정제하는 과정이다.
 
-## Open links to create
+## Related
 
-- [[Agent Workflow]]
-- [[Verifier]]
-- [[Stop Condition]]
+- [[agent-work-operating-system|AI Agent Work Operating System]]
+- [[LLM Wiki]]
+- [[Knowledge Compounding]]

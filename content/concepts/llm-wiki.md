@@ -9,14 +9,14 @@ tags:
 sources:
   - raw/articles/karpathy-llm-wiki.md
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-07-06
 confidence: medium
 draft: false
 ---
 
 # LLM Wiki
 
-LLM Wiki는 raw document를 query 때마다 검색하는 [[RAG]]식 흐름과 달리, LLM이 자료를 읽을 때마다 **지속적으로 유지되는 markdown wiki**를 갱신하는 패턴이다.
+LLM Wiki는 raw document를 query 때마다 검색하는 [[RAG vs LLM Wiki|RAG]]식 흐름과 달리, LLM이 자료를 읽을 때마다 **지속적으로 유지되는 markdown wiki**를 갱신하는 패턴이다.
 
 핵심은 다음 세 계층이다.
 
@@ -42,10 +42,6 @@ capture source → save raw → update wiki pages → update index/log → build
 
 - [[Andrej Karpathy]]
 - [[Knowledge Compounding]]
+- [[RAG vs LLM Wiki]]
+- [[agent-work-operating-system|AI Agent Work Operating System]]
 - [[SCHEMA]]
-
-## Open links to create
-
-- [[RAG]]
-- [[Obsidian]]
-- [[Quartz]]

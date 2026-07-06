@@ -18,7 +18,7 @@ draft: false
 
 # Peter Yang의 Advisor/Council Skill과 멀티 에이전트 의사결정 구조
 
-Peter Yang의 Advisor Skill은 Codex나 Claude Code 같은 AI coding agent를 **개인 인생·커리어·비즈니스 조언자**처럼 쓰기 위한 markdown 기반 skill 구조다. 핵심은 매번 긴 맥락을 다시 설명하는 대신, 개인의 목표·원칙·학습·검증 기준을 파일로 유지해서 AI가 그 위에서 조언하게 만드는 것이다.
+[[Peter Yang]]의 Advisor Skill은 Codex나 Claude Code 같은 AI coding agent를 **개인 인생·커리어·비즈니스 조언자**처럼 쓰기 위한 markdown 기반 skill 구조다. 핵심은 매번 긴 맥락을 다시 설명하는 대신, 개인의 목표·원칙·학습·검증 기준을 파일로 유지해서 AI가 그 위에서 조언하게 만드는 것이다.
 
 이 아이디어는 [[fable-worthy-work|Peter Yang의 Fable-worthy Work 전략]]과 연결된다. Fable-worthy Work가 “가장 강한 모델을 어디에 써야 하는가”를 다룬다면, Advisor/Council 구조는 “그 모델이 어떻게 계속 좋은 판단을 하게 만들 것인가”를 다룬다.
 
@@ -252,6 +252,7 @@ Learnings = 시스템이 시간이 지날수록 좋아지는 기억
 
 ## Related
 
+- [[agent-work-operating-system|AI Agent Work Operating System]]
 - [[fable-worthy-work|Peter Yang의 Fable-worthy Work 전략]]
 - [[Loop Engineering]]
 - [[LLM Wiki]]
