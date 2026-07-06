@@ -37,3 +37,10 @@ draft: false
 - Added raw source notes: `raw/articles/peter-yang-fable-worthy-work.md`.
 - Added concept page: `concepts/fable-worthy-work.md`.
 - Updated `index.md` catalog.
+
+
+## [2026-07-06] ingest | Peter Yang, “Advisor Skill”
+- Added raw source notes: `raw/articles/peter-yang-advisor-skill.md`.
+- Added concept page: `concepts/advisor-council-skill.md`.
+- Included the meeting-recording action-item tracking multi-agent example.
+- Updated `index.md` catalog.
