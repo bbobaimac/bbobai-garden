@@ -6,7 +6,7 @@ tags:
   - llm-wiki
   - knowledge-management
 created: 2026-06-21
-updated: 2026-06-22
+updated: 2026-07-06
 draft: false
 ---
 
@@ -26,7 +26,7 @@ Quartz + GitHub Pages로 공개
 
 운영 원칙은 [[SCHEMA]]에 있습니다. 이 구조는 Andrej Karpathy의 [[LLM Wiki]] 패턴을 이 repo에 맞게 적용한 것입니다.
 
-> Last updated: 2026-06-22 | Total wiki pages: 4
+> Last updated: 2026-07-06 | Total wiki pages: 5
 
 ## Start here
 
@@ -39,6 +39,7 @@ Quartz + GitHub Pages로 공개
 
 - [[karpathy-llm-wiki]] — Andrej Karpathy, “LLM Wiki” gist
 - [[hpd.ai — 프롬프트는 끝났다, 이제 루프를 짠다]] — hpd.ai의 Loop Engineering 캡처 요약
+- [[peter-yang-fable-worthy-work]] — Peter Yang의 Fable 5 사용 전략 source notes
 
 ## Entities
 
@@ -49,6 +50,7 @@ Quartz + GitHub Pages로 공개
 - [[LLM Wiki]] — raw source와 query-time RAG 사이에 지속 갱신되는 markdown wiki를 두는 패턴
 - [[Knowledge Compounding]] — 자료를 매번 다시 검색하지 않고 구조화된 지식으로 축적하는 방식
 - [[Loop Engineering]] — AI 에이전트가 반복 실행할 trigger, action, verifier, memory, stop condition을 설계하는 방법론
+- [[fable-worthy-work|Peter Yang의 Fable-worthy Work 전략]] — Fable 5 같은 최고급 모델을 큰 맥락·장기 판단·출시 감사·전략 설계에 아껴 쓰는 모델 라우팅 전략
 
 ## Comparisons
 

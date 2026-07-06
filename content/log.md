@@ -5,7 +5,7 @@ tags:
   - llm-wiki
   - log
 created: 2026-06-21
-updated: 2026-06-22
+updated: 2026-07-06
 draft: false
 ---
 
@@ -31,4 +31,9 @@ draft: false
 - Added raw capture summary: `raw/articles/hpd-loop-engineering.md`.
 - Added screenshot asset: `raw/assets/hpd-loop-engineering-2026-06-21.jpg`.
 - Added concept page: `concepts/loop-engineering.md`.
+- Updated `index.md` catalog.
+
+## [2026-07-06] ingest | Peter Yang, “Fable-worthy Work”
+- Added raw source notes: `raw/articles/peter-yang-fable-worthy-work.md`.
+- Added concept page: `concepts/fable-worthy-work.md`.
 - Updated `index.md` catalog.
